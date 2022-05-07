@@ -23,7 +23,7 @@ function HomePage() {
           className="object-cover rounded-xl h-52"
         />
 
-        <div className="TopDivMobile flex flex-row flex-wrap absolute w-4/6 max-w-7/8 justify-between text-white top-40 px-14">
+        <div className="TopDivMobile flex flex-row flex-wrap justify-evenly absolute w-4/6 max-w-7/8 text-white top-40 px-14">
           <div>
             <p className="text-sm">Available Balance</p>
             <p className="text-lg boldText mt-3">₦1,063,345.04</p>
@@ -46,8 +46,8 @@ function HomePage() {
         <p className="text-gray-400 ">A goal without a plan is just a wish</p>
       </div>
 
-      <div className="w-full flex flex-row flex-wrap mt-8">
-        <div className=" drop-shadow w-80 mb-10 pl-5 py-4 border mr-8 space-y-8 text-left rounded-xl bg-white border-grey-500">
+      <div className="w-full flex flex-row flex-wrap justify-around mt-8">
+        <div className=" drop-shadow w-full max-w-xs mb-10 pl-5 py-4 border space-y-8 text-left rounded-xl bg-white border-grey-500">
           <div className="flex flex-row items-center">
             <div className="rounded-full container w-12 h-12 secondary">
               <img alt="icon" src={porkchop} className="child w-6 h-6" />
@@ -65,7 +65,7 @@ function HomePage() {
             trailWidth="2"
           />
         </div>
-        <div className="drop-shadow w-80 mb-10 pl-5 py-4 border mr-8 space-y-8 text-left rounded-xl bg-white border-grey-500">
+        <div className="drop-shadow w-full max-w-xs mb-10 pl-5 py-4 border space-y-8 text-left rounded-xl bg-white border-grey-500">
           <div className="flex flex-row items-center">
             <div className="rounded-full container w-12 h-12 secondary">
               <img alt="icon" src={porkchop} className="child w-6 h-6" />
@@ -76,14 +76,14 @@ function HomePage() {
           <p className="BlackFont text-xl">N400.000</p>
           <Line
             className="mr-4"
-            percent="65"
+            percent="35"
             strokeWidth="2"
             strokeColor="#265859"
             trailColor="#F2F1F3"
             trailWidth="2"
           />
         </div>
-        <div className="drop-shadow w-80 mb-10 pl-5 py-4 border space-y-8 text-left rounded-xl bg-white border-grey-500">
+        <div className="drop-shadow w-full max-w-xs mb-10 pl-5 py-4 border space-y-8 text-left rounded-xl bg-white border-grey-500">
           <div className="flex flex-row items-center">
             <div className="rounded-full container w-12 h-12 secondary">
               <img alt="icon" src={porkchop} className="child w-6 h-6" />
@@ -94,7 +94,7 @@ function HomePage() {
           <p className="BlackFont text-xl">N400.000</p>
           <Line
             className="mr-4"
-            percent="85"
+            percent="35"
             strokeWidth="2"
             strokeColor="#265859"
             trailColor="#F2F1F3"
@@ -103,10 +103,10 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="w-full flex flex-row flex-wrap my-8">
+      <div className="w-full flex flex-row flex-wrap justify-around my-8">
         <div
           style={{ backgroundColor: "#E2698D" }}
-          className="flex flex-row h-48 drop-shadow w-80  mr-8 mb-10 pl-5 py-4 text-left rounded-xl text-white"
+          className="flex flex-row h-48 drop-shadow w-full max-w-xs  mb-10 pl-5 py-4 text-left rounded-xl text-white"
         >
           <div className="w-2/3">
             <p className="boldText ">Create a savings plan</p>
@@ -117,7 +117,7 @@ function HomePage() {
 
         <div
           style={{ backgroundColor: "#265859" }}
-          className="flex flex-row h-48 drop-shadow w-80 mb-10 pl-5 mr-8 py-4 text-left rounded-xl text-white"
+          className="flex flex-row h-48 drop-shadow w-full max-w-xs mb-10 pl-5 py-4 text-left rounded-xl text-white"
         >
           <div className="w-2/3">
             <p className="boldText ">Invest in a Female Farmer</p>
@@ -128,7 +128,7 @@ function HomePage() {
 
         <div
           style={{ backgroundColor: "#F2F1F3" }}
-          className="flex flex-row h-48 drop-shadow w-80 mb-10 pl-5 py-4 text-left rounded-xl text-pink-500"
+          className="flex flex-row h-48 drop-shadow w-full max-w-xs mb-10 pl-5 py-4 text-left rounded-xl text-pink-500"
         >
           <div className="w-2/3">
             <p className="boldText ">Invite your girls to HerVest</p>

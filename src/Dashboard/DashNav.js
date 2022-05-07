@@ -2,18 +2,18 @@ import { Link } from "react-router-dom";
 import React from "react";
 import HervestLogo from "../assets/images/Hervestlogo.svg";
 
-// Icons
+// icon
 import bankcard from "../assets/images/bankcard.svg";
-import Category from "../assets/icons/Category.svg";
-import Graph from "../assets/icons/Graph.svg";
-import Bag from "../assets/icons/Bag.svg";
-import TwoUsers from "../assets/icons/TwoUsers.svg";
-import User from "../assets/icons/User.svg";
-import Chat from "../assets/icons/Chat.svg";
-import InfoSquare from "../assets/icons/InfoSquare.svg";
-import Paper from "../assets/icons/Paper.svg";
-import Document from "../assets/icons/Document.svg";
-import Logout from "../assets/icons/Logout.svg";
+import Category from "../assets/icon/Category.svg";
+import Graph from "../assets/icon/Graph.svg";
+import Bag from "../assets/icon/Bag.svg";
+import TwoUsers from "../assets/icon/TwoUsers.svg";
+import User from "../assets/icon/User.svg";
+import Chat from "../assets/icon/Chat.svg";
+import InfoSquare from "../assets/icon/InfoSquare.svg";
+import Paper from "../assets/icon/Paper.svg";
+import Document from "../assets/icon/Document.svg";
+import Logout from "../assets/icon/Logout.svg";
 
 function DashNav({ children }) {
   return (
