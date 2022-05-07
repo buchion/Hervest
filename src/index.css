@@ -1,13 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  font-weight: 900;
+  src: url("./assets/fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratBlack";
+  font-weight: 900;
+  src: url("./assets/fonts/Montserrat-Black.ttf") format("truetype");
+}
+
+* {
+  font-family: "Montserrat";
+}
+
+.BlackFont {
+  font-family: "MontserratBlack";
+  font-weight: 700;
+}
+
+.menuheight {
+  height: 100vh;
+}
+
+.textcolor {
+  color: "#626375";
+}
+
+.AMenu {
+  color: #7c7f93;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.leftBar {
+  width: 250px;
+  /* width: 30% */
+}
+
+.boldText {
+  font-family: "MontserratBold";
+}
+
+.AMenu:hover {
+  background-color: #fdf6f8;
+}
+
+.container {
+  position: relative;
+}
+
+.secondary {
+  color: #265859;
+  background-color: #c2eff0;
+}
+
+.child {
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  margin: -25px 0 0 -25px;
+  /* Apply negative top and left margins to truly center the element */
+}
+
+.PNav {
+  padding-left: 18rem;
+}
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+  .NavBarMobile {
+    display: none;
+  }
+
+  .TopDivMobile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content;
+    top: 6rem !important;
+    justify-content: space-evenly !important;
+  }
+
+  .PNav {
+    padding-left: 1rem;
+  }
 }
