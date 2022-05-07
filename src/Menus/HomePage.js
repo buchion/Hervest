@@ -10,7 +10,7 @@ import MobileMenu from "../components/MobileMenu";
 import { useState, useRef } from "react";
 function HomePage() {
 
-  const [MenuOpen, SetMenuOpen] = useState()
+  const [MenuOpen, SetMenuOpen] = useState(false)
   const cancelButtonRef = useRef(null);
   return (
     <div className="mt-6 pr-6">
